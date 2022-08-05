@@ -13,21 +13,31 @@ body {
   }
   
   header {
-    background-color: #226c28;
+    background: linear-gradient(45deg,#739f54,#26654e) ;
     color: #fff;
     height: 90px;
   }
   
+
   .header-logo {
     float: left;
     font-size: 33px;
     padding: 20px 40px;
   }
   
-  .header-list li{
-    float: left;
+  
+  .header-list a{
+    float: right;
     padding: 33px 20px;
+    
   }
+
+
+
+  .header-list a:hover {
+    background-color: #5f9867;
+  }
+
   
   .main {
     padding: 100px 80px;
@@ -99,11 +109,19 @@ body {
     float: left;
     font-size: 32px;
   }
+
+  .footer p {
+    font-size: 20px;
+    margin: 20px;
+    
+  }
   
   .footer-list {
     float: right;
+    
   }
-  
+ 
+
   .footer-list li {
     padding-bottom: 20px;
   }
