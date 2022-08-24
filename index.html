@@ -2,13 +2,28 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>fictitious botanical garden</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link rel="stylesheet" href="https://unpkg.com/sanitize.css">
     <link rel="stylesheet" href="stylesheet.css">
+    <script type="text/javascript" src="move.js"></script>
+    <link 
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    >
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    
+
+    <title>fictitious botanical garden</title>
+ 
   </head>
   <body>
     <header>
      
-      <div class="header-logo">架空植物園</div>
+      <div class="header-logo"><a href="index.html">架空植物園</a>
+
+    </div>
      
       <div class="header-list">
         <ul>
@@ -20,25 +35,47 @@
 
         </ul>
       </div>
-      
-      <img src="budtransparent.png" alt="" width="70" height="70">
+
     </header>
     
 
     <div class="main">
-      <div class="copy-container">
-        <h1>歩く　見る　知る</h1>
+      <div class="container">
+        <h1>歩く、見る、知る。</h1>
         <h2>美しい植物に囲まれる、憩いの場</h2>
-        
+      
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src = "himawari.jpg"></div>
+            <div class="swiper-slide"><img src = "yuri.jpg"></div>
+            <div class="swiper-slide"><img src = "hana.jpg"></div>
+          </div> 
+        </div>
+      
+       
 
       </div>
+
       
       <div class="contents">
-        <div>
-          <p>開催中のイベント</p>
-          <p>園内map</p>
+        <ul>
+          <div class="contents-item">
+        
+            <a><div class="circle"></div></a>
+            <p>開催中のイベント</p>
+            
+          </div>
+         <div class="contents-item">
+            <a><div class="circle"></div></a>
+            <p>絵画コンテスト</p>
+          
+          </div>
+          <div class="contents-item">
+            <a><div class="circle"></div></a>
+            <p>園内map</p>
 
-        </div>
+          </div>
+        </ul>
       </div>
       
     </div>
